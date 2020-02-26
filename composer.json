@@ -16,9 +16,12 @@
     ],
     "require": {
         "composer/installers": "^1.2",
+        "drupal/components": "^1.1",
         "drupal/core-composer-scaffold": "^8.8",
         "drupal/core-project-message": "^8.8",
-        "drupal/core-recommended": "^8.8"
+        "drupal/core-recommended": "^8.8",
+        "drupal/radix": "4.x-dev",
+        "drush/drush": "9.7.0"
     },
     "require-dev": {
     },
