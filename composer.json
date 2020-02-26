@@ -35,6 +35,7 @@
         "drupal/core-composer-scaffold": "^8.8",
         "drupal/core-project-message": "^8.8",
         "drupal/core-recommended": "^8.8",
+        "drupal/devel": "^2.1",
         "drupal/media_gallery": "^1.0@RC",
         "drupal/photoswipe": "^2.9",
         "drupal/radix": "4.x-dev",
