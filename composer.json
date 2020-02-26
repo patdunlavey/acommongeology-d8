@@ -12,14 +12,29 @@
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "bower-asset/photoswipe",
+                "version": "4.1.1",
+                "type": "drupal-library",
+                "dist": {
+                    "url": "https://github.com/dimsemenov/PhotoSwipe/archive/v4.1.1.zip",
+                    "type": "zip"
+                }
+            }
         }
     ],
     "require": {
+        "bower-asset/photoswipe": "^4.1",
         "composer/installers": "^1.2",
+        "drupal/admin_toolbar": "^2.0",
         "drupal/components": "^1.1",
         "drupal/core-composer-scaffold": "^8.8",
         "drupal/core-project-message": "^8.8",
         "drupal/core-recommended": "^8.8",
+        "drupal/photoswipe": "^2.9",
         "drupal/radix": "4.x-dev",
         "drush/drush": "9.7.0"
     },
@@ -36,7 +51,7 @@
     "extra": {
         "installer-paths": {
             "core": ["type:drupal-core"],
-            "libraries/{$name}": ["type:drupal-library"],
+            "libraries/{$name}": ["type:drupal-library", "bower-asset/photoswipe"],
             "modules/contrib/{$name}": ["type:drupal-module"],
             "profiles/contrib/{$name}": ["type:drupal-profile"],
             "themes/contrib/{$name}": ["type:drupal-theme"],
