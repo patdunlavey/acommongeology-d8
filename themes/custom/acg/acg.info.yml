@@ -19,6 +19,7 @@ regions:
 libraries:
   - radix/style
   - acg/style
+  - acg/fonts
 
 libraries-override:
   radix/bootstrap: false

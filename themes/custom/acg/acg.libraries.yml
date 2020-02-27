@@ -8,3 +8,8 @@ style:
   dependencies:
     - core/jquery
     - core/drupal
+fonts:
+  css:
+    theme:
+      '//fonts.googleapis.com/css?family=Oswald:Oswald:300,400,700&display=swap': {type: external}
+      '//fonts.googleapis.com/css?family=Open+Sans:300,300italic,regular,italic,600,600italic|Oswald:300,300italic,regular,italic,600,600italic&subset=latin': {type: external}
