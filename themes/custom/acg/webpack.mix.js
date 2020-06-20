@@ -46,3 +46,5 @@ mix.sass('src/sass/acg.style.scss', 'css');
  |--------------------------------------------------------------------------
  */
 mix.js('src/js/acg.script.js', 'js');
+
+mix.webpackConfig({devtool: 'source-map'}).sourceMaps();

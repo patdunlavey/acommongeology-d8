@@ -17818,13 +17818,11 @@ __webpack_require__.r(__webpack_exports__);
 
 
 (function () {
-  'use strict';
-
-  Drupal.behaviors.helloWorld = {
-    attach: function attach(context) {
-      console.log('Hello World');
-    }
-  };
+  'use strict'; // Drupal.behaviors.helloWorld = {
+  //   attach: function (context) {
+  //     console.log('Hello World');
+  //   }
+  // };
 })(jQuery, Drupal);
 
 /***/ }),
@@ -17854,3 +17852,4 @@ module.exports = __webpack_require__(/*! /Users/pat/Sites/acommongeology.com/dru
 /***/ })
 
 /******/ });
+//# sourceMappingURL=acg.script.js.map

@@ -3,4 +3,10 @@ a.navbar-brand {
   font-size: $font-size-title;
   font-weight: $font-weight-title;
   text-transform: uppercase;
+  color: $body-color;
+
+  @media all and (max-width: 450px) {
+    font-size: 11vw;
+  }
+
 }

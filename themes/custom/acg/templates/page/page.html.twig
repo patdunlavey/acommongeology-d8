@@ -5,11 +5,11 @@
  */
 #}
 <div class="page">
-  {% embed '@radix/navbar/navbar.twig' with {
-    placement: 'sticky-top',
+  {% embed '@acg/navbar/navbar.twig' with {
+    placement: 'sticky-top-disabled',
     container: 'fixed',
-    color: 'light',
-    utility_classes: ['bg-light'],
+    color: 'dark',
+    utility_classes: ['bg-light-disabled'],
   } %}
 
     {% block branding %}
@@ -18,22 +18,17 @@
       {% endif %}
     {% endblock %}
 
-    {% block left %}
-      {% if page.navbar_left %}
+    {% block menu %}
+      {% if page.navbar_menu %}
         <div class="mr-auto">
-          {{ page.navbar_left }}
+          {{ page.navbar_menu }}
         </div>
       {% endif %}
     {% endblock %}
 
-    {% block right %}
-      {% if page.navbar_right %}
-        {{ page.navbar_right }}
-      {% endif %}
-    {% endblock %}
   {% endembed %}
 
-  <main class="pt-5 pb-5">
+  <main class="pt-5">
     {% if page.header %}
       <header class="page__header mb-3">
         <div class="container">

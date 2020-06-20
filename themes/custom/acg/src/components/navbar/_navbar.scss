@@ -1,0 +1,28 @@
+.navbar {
+
+  .form-inline {
+
+    .form-actions {
+      display: none;
+    }
+  }
+  &.navbar-expand-lg {
+    > .container {
+      flex-wrap: wrap;
+    }
+  }
+}
+
+.toolbar-oriented .toolbar-bar {
+  z-index: 1200;
+}
+
+.toolbar-horizontal {
+
+  .toolbar-menu {
+
+    &.nav {
+      float: left;
+    }
+  }
+}
